@@ -33,10 +33,8 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-group :assets do
-  gem 'twitter-bootstrap-rails'
-  gem 'less'
-end
+gem 'twitter-bootstrap-rails'
+gem 'less'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
